@@ -13,6 +13,7 @@ function App() {
     );
     const data = await response.json();
     setGiphy(data);
+    console.log(data);
   };
 
   return (
