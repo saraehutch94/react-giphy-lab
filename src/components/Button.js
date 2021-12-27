@@ -1,5 +1,5 @@
 function Button(props) {
-  return <button>Generate GIPHY</button>;
+  return <button onClick={props.getGiphy}>Generate GIPHY</button>;
 }
 
 export default Button;
