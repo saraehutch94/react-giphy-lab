@@ -1,5 +1,6 @@
 import "./App.css";
 import Button from "./components/Button";
+import GiphyDisplay from "./components/GiphyDisplay";
 import { useState } from "react";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
     <div className="App">
       <h1>Random GIPHY Generator</h1>
       <Button />
+      <GiphyDisplay />
     </div>
   );
 }
