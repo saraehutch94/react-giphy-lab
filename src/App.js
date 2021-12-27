@@ -19,7 +19,7 @@ function App() {
     <div className="App">
       <h1>Random GIPHY Generator</h1>
       <Button getGiphy={getGiphy} />
-      <GiphyDisplay />
+      <GiphyDisplay giphy={giphy} />
     </div>
   );
 }
