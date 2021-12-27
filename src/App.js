@@ -1,7 +1,7 @@
 import "./App.css";
 import Button from "./components/Button";
 import GiphyDisplay from "./components/GiphyDisplay";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 function App() {
   const API_KEY = "xd7hHM2MCgiMZ7fARqG7fk9xounFX34D";
@@ -13,7 +13,6 @@ function App() {
     );
     const data = await response.json();
     setGiphy(data);
-    console.log(data);
   };
 
   return (
