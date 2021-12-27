@@ -18,7 +18,7 @@ function App() {
   return (
     <div className="App">
       <h1>Random GIPHY Generator</h1>
-      <Button />
+      <Button getGiphy={getGiphy} />
       <GiphyDisplay />
     </div>
   );
