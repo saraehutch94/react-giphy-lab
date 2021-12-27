@@ -1,4 +1,4 @@
-function GiphyDisplay() {
+function GiphyDisplay(props) {
   return <div></div>;
 }
 

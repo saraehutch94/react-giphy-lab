@@ -1,4 +1,4 @@
-function Button() {
+function Button(props) {
   return <button>Generate GIPHY</button>;
 }
 
