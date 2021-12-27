@@ -1,5 +1,5 @@
 function Button() {
-  return <button></button>;
+  return <button>Generate GIPHY</button>;
 }
 
 export default Button;
