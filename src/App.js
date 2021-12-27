@@ -9,7 +9,7 @@ function App() {
 
   const getGiphy = async () => {
     const response = await fetch(
-      `api.giphy.com/v1/gifs/random?apikey=${API_KEY}`
+      `https://api.giphy.com/v1/gifs/random?api_key=${API_KEY}`
     );
     const data = await response.json();
     setGiphy(data);
